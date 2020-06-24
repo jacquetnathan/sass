@@ -1,0 +1,227 @@
+* {
+  padding: 0;
+  /* test des commentaires */
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav.main-menu {
+  width: 100%;
+  height: 40px;
+  display: inline-block;
+  background-color: #333333;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+nav.main-menu li {
+  display: inline-block;
+  padding: 0 15px 0 15px;
+}
+
+nav.main-menu ul {
+  padding: 0px 0px 0px 250px;
+}
+
+nav.main-menu ul li.login {
+  padding: 0 0 0 800px;
+}
+
+section.haut {
+  background-color: #1e93cc;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+section.haut h1 {
+  color: white;
+  text-align: center;
+  margin: 120px 0px 0px 0px;
+  font-size: 35px;
+  font-weight: 50;
+}
+
+section.haut button {
+  margin: 30px 800px 30px 800px;
+  padding: 20px 10px 20px 10px;
+  border: 3px solid white;
+  background-color: #e99002;
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  border-radius: 10px;
+}
+
+section.haut img.bonhomme {
+  width: 13%;
+  height: 70%;
+  position: absolute;
+  top: 50px;
+  left: 175px;
+}
+
+section.millieu_haut {
+  width: 100%;
+  height: 80px;
+  display: flex;
+}
+
+section.millieu_haut h1 {
+  font-size: 28px;
+  font-weight: 35;
+  margin: auto;
+}
+
+section.millieu_bas {
+  width: 100%;
+  height: 350px;
+  background-color: #1e93cc;
+  column-count: 2;
+  padding-left: 300px;
+  padding-right: 220px;
+  padding-top: 35px;
+  padding-bottom: 25px;
+  position: relative;
+}
+
+section.millieu_bas h1 {
+  color: white;
+  font-size: 35px;
+  font-weight: 50;
+}
+
+section.millieu_bas p {
+  color: white;
+  font-size: 17px;
+}
+
+section.millieu_bas img {
+  position: absolute;
+  top: 220px;
+  right: 20px;
+}
+
+section.innovative {
+  width: 100%;
+  height: 80px;
+  display: flex;
+}
+
+section.innovative h1 {
+  margin: auto;
+  color: #6b6865;
+  font-weight: 3;
+  font-size: 25px;
+}
+
+section.logos {
+  width: 100%;
+  height: 350px;
+  background-color: #eeeeee;
+  display: inline-block;
+}
+
+section.logos div.logo_haut {
+  margin: 50px 0px 0px 600px;
+}
+
+section.logos div.logo_haut img.miles, section.logos div.logo_haut img.app, section.logos div.logo_haut img.spectrum, section.logos div.logo_haut img.knowit, section.logos div.logo_haut img.hatchery, section.logos div.logo_haut img.fwd {
+  padding-right: 35px;
+}
+
+section.logos div.logo_bas {
+  display: flex;
+}
+
+section.logos div.logo_bas img.product {
+  padding-left: 900px;
+  padding-top: 90px;
+}
+
+section.bouton_bas {
+  width: 100%;
+  height: 350px;
+}
+
+section.bouton_bas ul {
+  display: flex;
+  display: row;
+  justify-content: center;
+  padding-top: 75px;
+}
+
+section.bouton_bas ul li.bleu {
+  background-color: #165882;
+  font-size: 25px;
+  color: white;
+  padding: 20px 30px 20px 30px;
+  margin: 10px 3px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 50;
+}
+
+section.bouton_bas ul li.orange {
+  background-color: #e99002;
+  font-size: 25px;
+  color: white;
+  padding: 20px 30px 20px 30px;
+  margin: 10px 3px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 50;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+}
+
+nav.bottom_menu {
+  width: 100%;
+  height: 40px;
+  background-color: #222222;
+  color: white;
+  position: relative;
+}
+
+nav.bottom_menu ul {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 10px 10px 10px;
+  margin: 0px;
+}
+
+nav.bottom_menu ul li {
+  padding: 0px 20px 0px 10px;
+  list-style-type: none;
+}
+
+nav.bottom_menu ul li.exclu {
+  border-left: 0.4px dashed white;
+}
+
+p.copyrith {
+  background-color: #222222;
+  color: white;
+  width: 180px;
+  padding-top: 10px;
+  padding-right: 30px;
+}
+
+p img {
+  position: absolute;
+  top: 1580px;
+  right: 15px;
+}
+
+section.haut img.logo_cloud {
+  position: absolute;
+  top: 10px;
+  right: 730px;
+}
+/*# sourceMappingURL=style.css.map */
